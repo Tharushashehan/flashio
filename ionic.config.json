@@ -1,0 +1,7 @@
+{
+  "name": "flashio",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

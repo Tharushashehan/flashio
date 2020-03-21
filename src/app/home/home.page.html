@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title text-center size="large">
+      Flashio
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- <div class="ion-padding" text-center>
+   Turn on the light
+  </div> -->
+  <br/>
+  <br/>
+  <ion-row center  class="toggle-btn-styl">  
+    <ion-col text-center> 
+      <ion-toggle [(ngModel)]="toggleBtnState" (ionChange)="onToggle($event)" color="danger"></ion-toggle>
+    </ion-col> 
+</ion-row>
+</ion-content>
